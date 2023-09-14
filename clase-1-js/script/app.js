@@ -7,9 +7,10 @@ let lastName;
 lastName = "llanos";
 lastName = "vexler";
 
+let edad = 33;
+
 //const: constantes de solo lectura y de ambito local 
 const dni = "12345678";
-
 
 // operadores
 
