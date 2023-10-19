@@ -42,4 +42,3 @@ cuenta1.informar();
 cuenta1.extraer(50000);
 cuenta1.extraer(18000);
 cuenta1.informar();
-
