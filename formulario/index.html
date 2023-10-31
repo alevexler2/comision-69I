@@ -17,6 +17,9 @@
         <div class="mb-3">
           <label for="name" class="form-label">Nombre</label>
           <input type="text" class="form-control" id="name" maxlength="41" minlength="2" onchange="handleChange(event)">
+          <div id="validationLabelName" class="d-none">
+            El nombre debe contener entre 3 y 41 caracteres
+          </div>
         </div>
         <div class="mb-3">
           <label for="lastName" class="form-label">Apellido</label>
@@ -35,15 +38,15 @@
         </div>
         <div class="mb-3">
           <label for="password" class="form-label">Contraseña</label>
-          <input type="password" class="form-control" id="password" minlength="8" maxlength="25"
+          <input type="text" class="form-control" id="password" minlength="8" maxlength="25"
             onchange="handleChange(event)">
         </div>
         <div class="mb-3">
           <label for="repeatPassword" class="form-label">Repetir contraseña</label>
-          <input type="password" class="form-control" id="repeatPassword" minlength="8" maxlength="25"
+          <input type="text" class="form-control" id="repeatPassword" minlength="8" maxlength="25"
             onchange="handleChange(event)">
         </div>
-        <button type="submit" class="btn btn-primary" id="submitButton">Registrate</button>
+        <button type="submit" class="btn btn-primary" id="submitButton" disabled>Registrate</button>
       </form>
     </div>
   </div>
